@@ -12,4 +12,4 @@ To enable, write a web worker as a single code page, and reference it in the scr
 | - yourCustomCodePage.js
 ```
 
-[hit me up](mailto:bryce@cirrusop.com)
+[hit me up](mailto:bryce@cirrusops.com)
