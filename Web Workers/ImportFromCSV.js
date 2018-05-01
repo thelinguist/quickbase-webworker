@@ -29,6 +29,7 @@ onmessage = function(e) {
     if (e.data.decimalPercent) url += "&decimalPercent=" + e.data.decimalPercent;
     if (e.data.skipfirst) url += "&skipfirst=" + e.data.skipfirst;
     if (e.data.msInUTC) url += "&msInUTC=" + e.data.msInUTC;
+    if (e.data.udata) url += "&udata=" + e.data.udata;
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.onreadystatechange = function () {
         if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
